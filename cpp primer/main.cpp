@@ -6,7 +6,7 @@
 //
 
 #include <iostream>
-
+#include "structure.hpp"
 void bucks(double);
 
 int main(int argc, const char * argv[]) {
@@ -23,6 +23,7 @@ int main(int argc, const char * argv[]) {
     cout << "difference " << b - a << endl;
     char grade = 65;
     cout << "grade is " << grade << endl;
+    structure();
     return 0;
 }
 
